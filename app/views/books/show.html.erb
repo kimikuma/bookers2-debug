@@ -29,7 +29,7 @@
            <% end %>
         </tr>
       </table>
-      <div id="comment_index">
+      <div id="comment_index<%=@book.id%>">
         <%=render 'book_comments/comment',book: @book,book_comment: @book_comment　%>
       </div>
       <div>
